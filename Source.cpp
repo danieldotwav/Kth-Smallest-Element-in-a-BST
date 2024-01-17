@@ -17,9 +17,9 @@ int main() {
     root->left = new TreeNode(1);
     root->right = new TreeNode(4);
     root->left->right = new TreeNode(2);
-    Solution* sol = new Solution();
+    Solution solution;
 
-    cout << "The " << k << "th smallest element is: " << sol->kthSmallest(root, k) << endl;
+    cout << "The " << k << "th smallest element is: " << solution.kthSmallest(root, k) << endl;
 
 	return 0;
 }
